@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuel Tracer | ft Ammad</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Fuel Tracer</h1>
+
+        <div class="inputs">
+            <div class="one">
+                <p>Distance : </p>
+                <input type="number" id="distance" placeholder="Distance (km)" />
+            </div>
+            <div class="one">
+                <p>Fuel : </p>
+                <input type="number" id="fuel" placeholder="Fuel Used (liters)" />
+            </div>
+
+        </div>
+
+        <button onclick="calculateAverage()">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
