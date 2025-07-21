@@ -58,6 +58,30 @@ input {
     outline: none;
 }
 
+@media (max-width: 360px) {
+    #distance {
+        width: 168px;
+    }
+
+    #fuel {
+        width: 168px;
+    }
+}
+
+@media (max-width: 280px) {
+    .one p {
+        font-weight: normal;
+    }
+
+    #distance {
+        width: 120px;
+    }
+
+    #fuel {
+        width: 120px;
+    }
+}
+
 .one {
     display: flex;
     align-items: center;
