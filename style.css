@@ -47,7 +47,7 @@ h1 {
     gap: 15px;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 300px;
+    max-width: 310px;
 }
 
 input {
@@ -59,6 +59,10 @@ input {
 }
 
 @media (max-width: 360px) {
+    .one p {
+        font-weight: normal;
+    }
+
     #distance {
         width: 168px;
     }
@@ -85,10 +89,14 @@ input {
 .one {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .one p {
     font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 1rem;
 }
 
 #distance {
