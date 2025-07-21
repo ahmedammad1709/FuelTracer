@@ -10,6 +10,6 @@ function calculateAverage() {
     }
 
     const average = (distance / fuel).toFixed(2);
-    result.innerHTML = `Fuel Average : <strong>${average} km/l</strong>`;
+    result.innerHTML = `Fuel Average : <strong>${average} km/L</strong>`;
     result.style.color = "#fff";
 }
